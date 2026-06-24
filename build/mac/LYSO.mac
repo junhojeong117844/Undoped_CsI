@@ -1,0 +1,16 @@
+/control/verbose 1
+/run/verbose 1
+
+/run/numberOfThreads 1
+
+/det/crystal LYSO
+/src/external Na22
+/src/enableLu true
+/src/luFrac 0
+/src/extPosZ -0.1 mm
+
+/out/name root/LYSO_30.5ph
+
+/run/initialize
+/process/had/rdm/thresholdForVeryLongDecayTime 1.0e+60 year
+/run/beamOn 50000

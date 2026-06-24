@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/junho/hadron/geant4/CsI/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

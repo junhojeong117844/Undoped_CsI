@@ -1,0 +1,4 @@
+/Users/junho/hadron/geant4/CsI/build/CMakeFiles/sim.dir
+/Users/junho/hadron/geant4/CsI/build/CMakeFiles/Tutorial.dir
+/Users/junho/hadron/geant4/CsI/build/CMakeFiles/edit_cache.dir
+/Users/junho/hadron/geant4/CsI/build/CMakeFiles/rebuild_cache.dir

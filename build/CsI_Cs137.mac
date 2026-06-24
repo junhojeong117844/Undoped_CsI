@@ -1,0 +1,13 @@
+/control/verbose 1
+/run/verbose 1
+
+/run/numberOfThreads 6
+
+/det/crystal CsI
+/src/external Cs137
+
+/out/name root/CsI_Cs137
+
+/run/initialize
+/process/had/rdm/thresholdForVeryLongDecayTime 1.0e+60 year
+/run/beamOn 50000

@@ -1,0 +1,28 @@
+/control/verbose 1
+/run/verbose 1
+
+/det/crystal CsI
+
+/src/external Cs137
+#/src/enableLu false
+#/src/luFrac 0
+#/src/extPosZ -0.1 mm
+
+/run/initialize
+
+/vis/open OGL 600x600-0+0
+
+#/vis/viewer/set/background 1 1 1
+
+/vis/viewer/set/style surface
+/vis/viewer/set/viewpointVector 1 1 1
+/vis/viewer/set/autoRefresh true
+
+/vis/drawVolume
+
+/vis/scene/add/axes 0 0 0 6 cm
+/vis/viewer/refresh
+
+/vis/scene/add/trajectories smooth
+/vis/scene/endOfEventAction accumulate
+/vis/scene/add/eventID
